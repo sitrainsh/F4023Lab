@@ -1,0 +1,10 @@
+﻿DATA_BLOCK "SCL_Block_DB"
+{ S7_Optimized_Access := 'TRUE' }
+VERSION : 0.1
+NON_RETAIN
+"SCL_Block"
+
+BEGIN
+
+END_DATA_BLOCK
+

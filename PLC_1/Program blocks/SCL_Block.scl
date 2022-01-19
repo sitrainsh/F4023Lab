@@ -1,0 +1,24 @@
+﻿FUNCTION_BLOCK "SCL_Block"
+{ S7_Optimized_Access := 'TRUE' }
+VERSION : 0.1
+   VAR 
+      statCondition : Bool;
+      aa : Int;
+   END_VAR
+
+
+BEGIN
+	IF #statCondition = TRUE THEN
+	    // Statement section IF
+	    
+	    ;
+	END_IF;
+	FOR #aa:=1 TO 10 DO
+	    // Statement section FOR
+	    ;
+	END_FOR;
+	
+	
+	
+END_FUNCTION_BLOCK
+
